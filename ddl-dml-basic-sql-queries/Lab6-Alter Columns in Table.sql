@@ -1,0 +1,11 @@
+ALTER TABLE student
+ADD COLUMN Country VARCHAR(50);
+
+ALTER TABLE student
+DROP COLUMN Country; 
+
+ALTER TABLE student
+ADD COLUMN marks INT;
+
+ALTER TABLE student
+MODIFY COLUMN marks INT DEFAULT 40; 
